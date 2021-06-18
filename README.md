@@ -4,11 +4,11 @@ Run `poetry install; poetry run ./pytest.sh`
 
 ## Expected
 
-Poetry should run pytest.sh as if in a shell
+Poetry should run pytest.sh as if in a shell, and should print "This is ./pytest.sh"
 
 ## Actual
 
-Poetry runs `pytest` and the PYTHONPATH is wrong
+Poetry simply runs the python module `pytest`
 
 ## Notes
 
